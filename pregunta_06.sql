@@ -47,7 +47,7 @@ SELECT
     *
 FROM
     tbl1
-ORDER BY
-    c14
 WHERE 
-    K0 LIKE 'A%';
+    K0 LIKE 'A%'
+ORDER BY
+    c14;
