@@ -17,6 +17,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 
-SELECT SUM(c12) as sum_c12
-FROM tbl1;
+SELECT
+    c12
+FROM
+    tbl1
+WHERE 
+    c12=(SELECT SUM(c12) from tbl1);
 
