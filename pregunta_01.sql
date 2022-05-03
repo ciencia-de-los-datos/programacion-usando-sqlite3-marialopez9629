@@ -18,9 +18,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 
 SELECT
-    c12
+    SUM(c12)
 FROM
-    tbl1
-WHERE 
-    c12=(SELECT SUM(c12) from tbl1);
+    tbl1;
 
