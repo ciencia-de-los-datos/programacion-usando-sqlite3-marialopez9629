@@ -49,4 +49,5 @@ FROM
     tbl1
 ORDER BY
     c14
-WHERE K0 LIKE 'A%';
+WHERE 
+    K0 LIKE 'A%';
