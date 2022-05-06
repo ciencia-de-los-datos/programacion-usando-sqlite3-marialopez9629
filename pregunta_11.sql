@@ -43,4 +43,4 @@ SELECT
 FROM
     tbl1
 WHERE
-    c14 LIKE %2018%;
+    c14 LIKE '%2018%';
