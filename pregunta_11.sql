@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    strftime("%Y",c14)
+    strftime("%Y",c14),
     COUNT(*)
 FROM
     tbl1
