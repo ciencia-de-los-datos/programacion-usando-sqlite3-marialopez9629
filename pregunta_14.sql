@@ -44,7 +44,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT
-    K0
+    K0,
     avg(c21)
 FROM
     tbl1 
