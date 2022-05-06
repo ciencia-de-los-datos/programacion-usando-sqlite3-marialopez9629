@@ -39,8 +39,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    count(*)
+    YEAR('2018')
+    CANT
 FROM
     tbl1
 WHERE
-    c14 LIKE '%2018%';
+    CANT=(SELECT c14 FROM tbl1 WHERE c14 LIKE '%2018%');
