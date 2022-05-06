@@ -48,8 +48,8 @@ SELECT
     avg(c21)
 FROM
     tbl1
-JOIN
-    tbl2
+LEFT JOIN
+    ON tbl1.c21=tbl2.c21
 WHERE 
     c13>400
 GROUP BY
