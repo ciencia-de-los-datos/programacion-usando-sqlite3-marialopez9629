@@ -44,6 +44,6 @@ SELECT
 FROM
     tbl1
 WHERE
-    strftime("%Y",c14)='2018';
+    substr(c14,1,4)='2018';
 
     
