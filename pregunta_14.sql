@@ -44,14 +44,12 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT
-    tbl1.K0,
-    avg(tbl2.c21)
+    K0
+    avg(c21)
 FROM
-    tbl1
-LEFT JOIN
-    tbl1 ON tbl1.c21=tbl2.c21
+    tbl1 
 WHERE 
-    c13>400
+    c21=SELECT(c21 FROM tbl2) AND c13>400
 GROUP BY
     K0;
 
