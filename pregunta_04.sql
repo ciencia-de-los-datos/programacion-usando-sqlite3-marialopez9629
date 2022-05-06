@@ -46,4 +46,4 @@ SELECT
 FROM
     tbl1
 WHERE
-    SELECT LEFT(c16,1) LIKE K0;
+    c16 LIKE K0%;
