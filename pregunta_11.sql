@@ -39,11 +39,10 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    strftime("%Y",c14),
     COUNT(*)
 FROM
     tbl1
 WHERE
-    substr(c14,1,4)='2018';
+    strftime('%Y',c14)='2018';
 
     
