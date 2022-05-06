@@ -47,6 +47,6 @@ SELECT
 FROM
     tbl2
 GROUP BY
-    strftime(c23,%Y);
+    strftime(c23,"%Y");
 
     
