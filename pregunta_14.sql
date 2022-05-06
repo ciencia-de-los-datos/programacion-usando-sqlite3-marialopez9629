@@ -45,9 +45,11 @@
 --  
 SELECT
     K0,
-    AVG(SELECT c21 FROM tbl2)
+    avg(c21)
 FROM
     tbl1
+JOIN
+    tbl2
 WHERE 
     c13>400
 GROUP BY
