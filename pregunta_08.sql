@@ -42,11 +42,11 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    strftime(c23,"%Y")
+    strftime("%Y",c23)
     AVG(c21)
 FROM
     tbl2
 GROUP BY
-    strftime(c23,"%Y");
+    strftime("%Y",c23);
 
     
