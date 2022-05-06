@@ -47,9 +47,7 @@ SELECT
     K0,
     avg(c21)
 FROM
-    tbl1
-LEFT JOIN
-    ON tbl1.c21=tbl2.c21
+    tbl1, tbl2
 WHERE 
     c13>400
 GROUP BY
