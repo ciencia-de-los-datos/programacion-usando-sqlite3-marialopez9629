@@ -39,9 +39,14 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    YEAR('2018')
-    CANT
+    strftime("%Y",c14)
+    COUNT(*)
 FROM
     tbl1
 WHERE
-    CANT=(SELECT c14 FROM tbl1 WHERE c14 LIKE '%2018%');
+    strftime("%Y",c14) LIKE '2018'
+GROUP BY
+    strftime("%Y",c14);
+
+
+    
