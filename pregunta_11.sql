@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    *
+    count(*)
 FROM
     tbl1
 WHERE
